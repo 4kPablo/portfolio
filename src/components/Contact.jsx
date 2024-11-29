@@ -136,7 +136,7 @@ const Contact = () => {
               <input
                 type="hidden"
                 name="subject"
-                value={`Nuevo mensaje de ${name}`}
+                value={`New message from ${name}`}
               />
               <input
                 type="hidden"
