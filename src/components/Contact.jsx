@@ -123,7 +123,7 @@ const Contact = () => {
             </div>
             <div>
               <ul className="flex">
-                <li className="flex items-center">
+                <li className="flex items-center pt-4">
                   <FaRegCopyright className="mr-2" />
                   <p>{currentYear} Pablo Estigarribia | Web developer</p>
                 </li>
