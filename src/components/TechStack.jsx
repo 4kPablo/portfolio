@@ -36,11 +36,6 @@ const TechStack = () => {
     { name: "GitHub", icon: <FaGithub />, link: "https://github.com/" },
     { name: "shadcn/ui", icon: <SiShadcnui />, link: "https://ui.shadcn.com/" },
     {
-      name: "VS Code",
-      icon: <SiVisualstudiocode />,
-      link: "https://code.visualstudio.com/",
-    },
-    {
       name: "Tailwind",
       icon: <SiTailwindcss />,
       link: "https://tailwindcss.com/",

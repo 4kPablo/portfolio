@@ -9,6 +9,7 @@ import {
 } from "./ui/card";
 import { Badge } from "./ui/badge";
 import { Button } from "./ui/button";
+import { Github } from "lucide-react";
 
 const projects = [
   {
@@ -18,7 +19,7 @@ const projects = [
     technologies: ["HTML", "SASS"],
     github: "https://github.com/4kPablo/debian-website",
     live: "https://debian-website.vercel.app",
-    date: "25 de junio de 2022",
+    date: "Junio de 2022",
   },
   {
     title: "Clon de Youtube (mobile)",
@@ -28,7 +29,7 @@ const projects = [
     technologies: ["HTML", "React", "Tailwind"],
     github: "https://github.com/4kPablo/youtube-clon",
     live: "https://youtube-clonn.vercel.app/",
-    date: "21 de junio de 2024",
+    date: "Junio de 2024",
   },
   {
     title: "Battle Llamas",
@@ -38,7 +39,7 @@ const projects = [
     technologies: ["HTML", "React", "Tailwind"],
     github: "https://github.com/4kPablo/battle-llamas",
     live: "https://battle-llamas.vercel.app/",
-    date: "14 de enero de 2024",
+    date: "Enero de 2024",
   },
   {
     title: "Club de Programadores",
@@ -48,7 +49,7 @@ const projects = [
     technologies: ["HTML", "React", "Tailwind", "Shadcn/ui"],
     github: "https://github.com/Club-Programadores/HUB_ClubProg",
     live: "https://clubprogramadores-fork.vercel.app",
-    date: "En desarrollo",
+    date: "Diciembre de 2024",
   },
   {
     title: "Historiarte con Ale",
@@ -57,8 +58,18 @@ const projects = [
     image: "/historiarte.png",
     technologies: ["HTML", "React", "Tailwind", "Shadcn/ui", "Firebase"],
     github: "https://github.com/4kPablo/historiarte-con-ale",
-    live: "https://historiarte-con-ale.vercel.app/",
-    date: "En desarrollo",
+    live: "https://historiarteconale.ar/",
+    date: "Noviembre de 2024",
+  },
+  {
+    title: "Mirta Bravo psicología",
+    description:
+      "Landing Page para una profesional de la psicología que también hace videos para Youtube y tiene libros publicados, visibles desde la web.",
+    image: "/mirtabravo.png",
+    technologies: ["HTML", "React", "Tailwind", "Shadcn/ui"],
+    github: "https://github.com/4kPablo/Mirta-Bravo_psico",
+    live: "https://mirtabravo.vercel.app/",
+    date: "Enero de 2025",
   },
 ];
 
@@ -107,12 +118,13 @@ const Portfolio = () => {
                 </CardContent>
                 <CardFooter className="mt-auto flex justify-between gap-3">
                   <Button className="w-full" variant="outline" asChild>
+                    {/* <Github /> */}
                     <a
                       href={project.github}
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      GitHub
+                      Código fuente
                     </a>
                   </Button>
                   <Button className="w-full" variant="outline" asChild>
@@ -121,7 +133,7 @@ const Portfolio = () => {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      Ver Proyecto
+                      Página web
                     </a>
                   </Button>
                 </CardFooter>
